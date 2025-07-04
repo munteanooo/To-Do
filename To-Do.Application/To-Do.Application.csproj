@@ -11,4 +11,18 @@
     <ProjectReference Include="..\To-Do.Domain\To-Do.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Tags\Commands\CreateTag\" />
+    <Folder Include="Features\Tags\Queries\GetAllTags\" />
+    <Folder Include="Features\ToDoItems\Commands\MarkToDoItemAsCompleted\" />
+    <Folder Include="Features\ToDoItems\Commands\DeleteToDoItem\" />
+    <Folder Include="Features\ToDoItems\Commands\SnoozeToDoItem\" />
+    <Folder Include="Features\ToDoItems\Commands\UpdateToDoItem\" />
+    <Folder Include="Features\ToDoItems\Queries\GetToDoItemsByDateRange\" />
+    <Folder Include="Features\ToDoItems\Queries\GetOverdueToDoItems\" />
+    <Folder Include="Features\ToDoItems\Queries\GetUpcomingToDoItems\" />
+    <Folder Include="Features\UserProfile\Commands\" />
+    <Folder Include="Features\UserProfile\Queries\" />
+  </ItemGroup>
+
 </Project>
