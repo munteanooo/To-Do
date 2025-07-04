@@ -1,4 +1,4 @@
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using To_Do.Web.Models;
 
@@ -8,6 +8,7 @@ namespace To_Do.Web.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
+        // Pagina principală, de tip dashboard
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
