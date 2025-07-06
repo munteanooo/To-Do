@@ -1,4 +1,4 @@
-﻿namespace To_Do.Web.Models
+﻿namespace To_Do.API.Models
 {
     public class CalendarEventViewModel
     {

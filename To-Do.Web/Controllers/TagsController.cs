@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace To_Do.Web.Controllers
+namespace To_Do.API.Controllers
 {
     public class TagsController : Controller
     {
