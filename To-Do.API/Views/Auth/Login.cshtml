@@ -1,0 +1,17 @@
+﻿@model To_Do.Application.DTOs.UserLoginDto
+
+<h2>Logare</h2>
+
+<form asp-action="Login" method="post">
+    <div>
+        <label>Username:</label>
+        <input asp-for="Username" />
+    </div>
+    <div>
+        <label>Parola:</label>
+        <input asp-for="Password" type="password" />
+    </div>
+    <button type="submit">Login</button>
+</form>
+
+@Html.ValidationSummary()

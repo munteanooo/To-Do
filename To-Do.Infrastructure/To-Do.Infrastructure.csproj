@@ -22,4 +22,9 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.12.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\To-Do.Application\To-Do.Application.csproj" />
+    <ProjectReference Include="..\To-Do.Domain\To-Do.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

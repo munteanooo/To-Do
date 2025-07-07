@@ -1,0 +1,17 @@
+﻿@model To_Do.Application.DTOs.UserLoginDto
+
+<h2>Înregistrare</h2>
+
+<form asp-action="Register" method="post">
+    <div>
+        <label>Username:</label>
+        <input asp-for="Username" />
+    </div>
+    <div>
+        <label>Parola:</label>
+        <input asp-for="Password" type="password" />
+    </div>
+    <button type="submit">Înregistrează-te</button>
+</form>
+
+@Html.ValidationSummary()

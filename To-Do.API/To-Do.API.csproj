@@ -7,4 +7,16 @@
     <RootNamespace>To_Do.API</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\To-Do.Application\To-Do.Application.csproj" />
+    <ProjectReference Include="..\To-Do.Infrastructure\To-Do.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
